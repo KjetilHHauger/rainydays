@@ -1,35 +1,54 @@
-header li {
-  list-style: none;
-  display: inline-block;
-  padding: 0 30px;
-}
-
-.logo {
-  padding: 0 70px;
-  justify-content:flex-start
-}
 .navbar {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-bottom-style: solid;
-  border-width: 1px;
-  border-color: #253031;
+    position: relative;
+    background-color: #ffffff;
+    overflow: hidden;
+    border-bottom: solid;
+    border-width: 1px;
 }
 
-.navLinks a {
-  display: flex;
-  text-decoration: none;
-  color: #253031;
-  justify-content: flex-end;
-}
-.navLinks a:hover {
-  display: flex;
-  text-decoration: underline;
-  transition: all 0.3s ease 0s;
+.navbar a {
+    float: left;
+    color: #374151;
+    text-align: center;
+    padding-right: 56px;
+    text-decoration: none;
+    font-size: 20px;
 }
 
-.navItems {
- 
+.navbar a:hover {
+    text-decoration: underline;
+    color: #374151;
+}
+
+.active {
+    text-decoration: underline;
+    color: #374151;
+}
+
+.navbar-centered {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar-right {
+    float: right;
+    margin-right: 70px;
+}
+
+@media screen and {max-width: 600px) {
+    
+.navbar a, .navbar-right {
+    float: none;
+    display: block;
+}
+
+.navbar-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
 }

@@ -1,0 +1,16 @@
+ul.breadcrumb {
+    padding: 16px 70px;
+    list-style: none;
+    background-color: #ffffff;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 16px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 4px;
+    color: #374151;
+    content: "/\00a0";
+}

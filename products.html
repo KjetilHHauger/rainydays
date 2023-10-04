@@ -5,29 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" image="image/img" sizes="32x32" href="assets/Logo/RainyDays_Logo.png">
     <title>Rainydays | Products</title>
-    <link rel="stylesheet" href="navbar.css"
+    <link rel="stylesheet" href="navbar.css"/>
+    <link rel="stylesheet" href="breadcrumb.css"/>
 </head>
 <body>
     <header>
         <nav class="navbar" style="height: 84px;">
-            <a href="#" class="logo">
-               <img src="assets/Logo/logo_black.svg" 
-                    style="width: 58px;" height="30px"
-                    alt="Raindays logo"
-            </a>
-            <ul class="navLinks">
-                <li class="navItem"><a href="#">Jackets</a></li>
-                <li class="navItem"><a href="#">Pants</a></li>
-                <li class="navItem"><a href="#">Boots</a></li>
-                <li class="navItem"><a href="#">About</a></li>
-                <li class="navItem"><a href="#">Contact</a></li>
-                <li class="navItem"><a href="#">Locations</a></li>
-            </ul>
+            <img src="assets/Logo/logo_black.svg" href="#index" style="margin-left: 70px; margin-top: 27px;"></a>
+            <div class="navbar-centered">
+                <a href="#products" class="active">Jackets</a>
+                <a href="#">Pants</a>
+                <a href="#">Boots</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#">Locations</a>
+            </div>
+ 
+            <div class="navbar-right" style="margin-right: 70px; margin-top: 30px;">
+                <img src="assets/icons/search.svg" href="#" style="padding-right: 32px;"/>
+                <img src="assets/icons/bag.svg" href="#"/>
+            </div>
         </nav>
-         
+
+       
     </header>
     <main id="products">
-        <p class="sitelocation">Home / Mens / Raincoat /</p>
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Mens</a></li>
+            <li>Raincoat</li>
+        </ul> 
         <section class="row1">
             <div class="first">
                 <img 
