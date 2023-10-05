@@ -1,0 +1,14 @@
+.row1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin: 70px;
+}
+
+.productColor {
+    float: right;
+}
+
+.productPrice {
+    float: left;
+}
