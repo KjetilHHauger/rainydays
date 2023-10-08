@@ -1,16 +1,22 @@
+body {
+    margin: 0;
+}
 .navbar {
-    position: relative;
+    position: fixed;
+    width: 100vw;
+    top: 0;
     background-color: #ffffff;
     overflow: hidden;
     border-bottom: solid;
     border-width: 1px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar a {
     float: left;
     color: #374151;
     text-align: center;
-    padding-right: 56px;
+    padding: 0 28px 0 28px;
     text-decoration: none;
     font-size: 20px;
 }
@@ -21,7 +27,7 @@
 }
 
 .active {
-    text-decoration: underline;
+    text-decoration: underline !important;
     color: #374151;
 }
 

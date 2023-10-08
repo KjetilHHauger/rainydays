@@ -1,0 +1,40 @@
+footer {
+    background-color: #253031;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.languageForm {
+    display: inline-block;
+    margin: 32px 0 0 70px;
+    float: left;
+}
+
+.currencyForm {
+    display: inline-block;
+    margin: 32px 70px 0 0;
+    float: right;
+}
+
+.hr {
+    background-color: #ffffff50;
+    height: 3px;
+    border: none;
+    float: none;
+    clear: both;
+    margin: 72px 70px 0 70px;
+}
+
+.warranty {
+    margin-left: 70px;
+    display: inline-block;
+}
+
+.signUp {
+    border: 1px solid #fff;
+    width: 80px;
+    height: 32px;
+    text-align: center;
+    display: inline-block;
+}
